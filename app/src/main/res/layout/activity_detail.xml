@@ -106,4 +106,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvCompanyDetail"
         app:layout_constraintTop_toBottomOf="@+id/tvCompanyDetail" />
+
+    <Button
+        android:id="@+id/btnShare"
+        style="@style/CustomButtonStyle"
+        android:text="@string/txt_share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLocation"
+        app:layout_constraintVertical_bias="0.107" />
 </androidx.constraintlayout.widget.ConstraintLayout>
