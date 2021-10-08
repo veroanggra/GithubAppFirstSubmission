@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Github</string>
+    <string name="txt_imageview">Imageview</string>
+    <string name="txt_version">version 1.0</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_follower">Follower</string>
+    <string name="txt_following">Following</string>
+    <string name="txt_100">100</string>
+    <string name="text_veronica_putri">Veronica Putri</string>
+    <string name="txt_veroanggra">veroanggra</string>
+    <string name="txt_company">Company</string>
+    <string name="txt_location">Location</string>
+</resources>
