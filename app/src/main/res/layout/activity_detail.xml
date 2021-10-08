@@ -12,10 +12,10 @@
         android:layout_height="@dimen/_150dp"
         android:layout_marginStart="@dimen/_20dp"
         android:layout_marginTop="@dimen/_40dp"
+        android:contentDescription="@string/txt_imageview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_github"
-        android:contentDescription="@string/txt_imageview" />
+        app:srcCompat="@drawable/ic_github" />
 
     <TextView
         android:id="@+id/tvLabelFollower"
@@ -39,11 +39,8 @@
 
     <TextView
         android:id="@+id/tvFollower"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetailTopValue"
         android:text="@string/txt_100"
-        android:textSize="@dimen/_18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvLabelFollower"
         app:layout_constraintEnd_toEndOf="@+id/tvLabelFollower"
         app:layout_constraintStart_toStartOf="@+id/tvLabelFollower"
@@ -52,11 +49,8 @@
 
     <TextView
         android:id="@+id/tvFollowing"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetailTopValue"
         android:text="@string/txt_100"
-        android:textSize="@dimen/_18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvLableFollowing"
         app:layout_constraintEnd_toEndOf="@+id/tvLableFollowing"
         app:layout_constraintHorizontal_bias="0.527"
@@ -66,14 +60,12 @@
 
     <TextView
         android:id="@+id/tvNameDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetail"
         android:layout_marginTop="@dimen/_28dp"
-        app:drawableStartCompat="@drawable/ic_outline_person_24"
         android:drawablePadding="@dimen/_20dp"
         android:text="@string/text_veronica_putri"
-        android:textSize="@dimen/_18sp"
         android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_outline_person_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,13 +73,11 @@
 
     <TextView
         android:id="@+id/tvUsernameDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetail"
         android:layout_marginTop="@dimen/_8dp"
+        android:drawablePadding="@dimen/_20dp"
         android:text="@string/txt_veroanggra"
         app:drawableStartCompat="@drawable/ic_outline_assignment_ind_24"
-        android:drawablePadding="@dimen/_20dp"
-        android:textSize="@dimen/_18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvNameDetail"
@@ -95,12 +85,11 @@
 
     <TextView
         android:id="@+id/tvCompanyDetail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetail"
         android:layout_marginTop="@dimen/_8dp"
+        android:drawablePadding="@dimen/_20dp"
         android:text="@string/txt_company"
         app:drawableStartCompat="@drawable/ic_outline_work_24"
-        android:drawablePadding="@dimen/_20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvUsernameDetail"
@@ -108,12 +97,11 @@
 
     <TextView
         android:id="@+id/tvLocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextDetail"
         android:layout_marginTop="@dimen/_8dp"
+        android:drawablePadding="@dimen/_20dp"
         android:text="@string/txt_location"
         app:drawableStartCompat="@drawable/ic_outline_location_on_24"
-        android:drawablePadding="@dimen/_20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvCompanyDetail"
